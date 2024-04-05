@@ -1,0 +1,116 @@
+:root {
+    --main-color: #A95E13;
+    --other-color: #ff6347;
+    --black: #000000;
+    --bg: #cf720891;
+    --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+    font-size: 15+px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    font-family: "Gloria Hallelujah", cursive;
+
+
+}
+
+body {
+    background-color: var(--bg);
+}
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: var(--border);
+}
+
+.header section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  1rem 5%;
+    padding: 1rem 5% ;
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: var(--black);
+
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: 0.5rem;
+    
+}
+
+.icons img{
+    margin: 1rem;
+    cursor: pointer;
+
+}
+
+.icons img:hover{
+    width: 40px;
+    height: 40px;
+    }
+
+.btn {
+    background: var(--main-color);
+    color: var(--black);
+    padding: 1rem 3rem;
+    display: inline-block;
+    font-size:1.rem;
+    cursor: pointer;    
+    margin-top: 1rem; 
+    display: inline-block;
+         
+}    
+.home-container {
+    background: url("./img/coffee-cup.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.home-container section{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.content {
+    max-width: 150rem;
+}
+.content h3 {
+    color: #000000;
+    font-size: 2rem;
+}
+
+.content p { 
+    color: #080808;
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height:1.8;
+    padding: 1rem 0;
+    
+}
