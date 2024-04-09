@@ -33,7 +33,7 @@ section {
 }
 
 .header {
-    position: fixed;
+    position:relative;
     top: 0;
     left: 0;
     right: 0;
@@ -125,12 +125,12 @@ section {
 }
 .title span{
     color:var(--black);
-    text-align:center;
+    bottom: center;
 
 }
 .sabores h3 {
     display: inline-block;
     margin-right: 5rem; 
-    text-align: center;
+    text-align: center 9rem;
 }
 
