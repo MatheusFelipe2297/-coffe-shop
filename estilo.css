@@ -26,19 +26,20 @@ body {
 }
 
 section {
-    padding: 3rem 2rem;
+    padding: 6rem 6rem;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1000px;
 
 }
 
 .header {
-    position:relative;
+    position:fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 99;
+    z-index: 90;
     border-bottom: var(--border);
+    background-color: #A95E13;
     
 }
 
@@ -46,7 +47,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:  1rem 5%;
+    padding:  1rem ;
     padding: 1rem 5% ;
     color: #A95E13;
 }
@@ -117,20 +118,22 @@ section {
     
 }
 .title {
-    font-size: 2rem;
-    text-align: left;
+    font-size:2rem;
+    text-align: center;
     letter-spacing: 0.1rem;
-
-
+    
+   
 }
-.title span{
+.title span {
     color:var(--black);
     bottom: center;
+    text-align: center;
+
+    
 
 }
-.sabores h3 {
-    display: inline-block;
-    margin-right: 5rem; 
-    text-align: center 9rem;
+.tipos .row{
+    
+    justify-content: space-around;
+   
 }
-
