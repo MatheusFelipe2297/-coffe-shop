@@ -23,12 +23,14 @@
 
 body {
     background-color: var(--bg);
+    
 }
 
 section {
     padding: 3rem 2rem;
     margin: 0 auto;
     max-width: 1200px;
+    
 
 }
 
@@ -38,7 +40,9 @@ section {
     left: 0;
     right: 0;
     z-index: 99;
-    border-bottom: var(--border);
+    background-color: var(--main-color);
+    
+    
     
 }
 
@@ -59,34 +63,45 @@ section {
 }
 
 .navbar a:hover {
-    color: var(--main-color);
+    color: #ffffff;
     border-bottom: 0.1rem solid var(--main-color);
     padding-bottom: 0.5rem;
+    
     
 }
 
 .icons img{
     margin: 1rem;
     cursor: pointer;
-
+    border-bottom: var(--border);
 }
 
 .icons img:hover{
     width: 40px;
     height: 40px;
+    
+    
     }
 
 .btn {
-    background: var(--main-color);
+    background: var(--bg);
     color: var(--black);
     padding: 1rem 3rem;
-    display: inline-block;
-    font-size:1.rem;
+    display: inline-flex;
+    font-size:1rem;
     cursor: pointer;    
     margin-top: 1rem; 
-    display: inline-block;
-         
+
+   
 }    
+
+.btn.hover{
+
+    letter-spacing: 0.2rem;
+    padding-bottom: 0.5rem;
+    
+
+}
 .home-container {
     background: url("./img/coffee-cup.jpg");
     background-position: center;
@@ -118,8 +133,9 @@ section {
 }
 .title {
     font-size: 2rem;
-    text-align: left;
+    text-align: center;
     letter-spacing: 0.1rem;
+    margin-bottom: 2rem;
 
 
 }
@@ -130,9 +146,49 @@ section {
 }
 
 .tipos .row{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+  align-items:center;
+  gap: 1.5rem;
+}
 
+.tipos .row .content{
+    padding:  2rem;
+
+}
+.tipos .row .sabores h3{
+    
+    font-size: 2rem;
+    display: inline-flex;
+    text-align: center;
+    padding: 5rem  4rem ;
+    
+}
+
+.menu .box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+    padding-right: 8rem;
+    padding-left: 2rem;
+}
+
+.menu .box-container .box{
+    border: 0.1rem solid var(--black);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+    overflow: hidden;
+}
+.menu .box-container .box .img{
+    height: 20rem;
+    width: 20rem;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 1rem 0;
+}
+.menu .box-container.box .img h3{
+    font-size: 2rem;
+    color:var(--black);
+    text-align:center;
+    padding: 1rem;
 }
