@@ -95,9 +95,9 @@ section {
    
 }    
 
-.btn.hover{
+.btn:hover{
 
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
     padding-bottom: 0.5rem;
     
 
@@ -130,18 +130,21 @@ section {
     line-height:1.8;
     padding: 1rem 0;
     
+    
 }
 .title {
     font-size: 2rem;
     text-align: center;
     letter-spacing: 0.1rem;
     margin-bottom: 2rem;
+    
 
 
 }
 .title span{
     color:var(--black);
     text-align:center;
+    flex-direction: column;
 
 }
 
@@ -149,10 +152,13 @@ section {
     display: inline-block;
   align-items:center;
   gap: 1.5rem;
+  
+  
 }
 
 .tipos .row .content{
     padding:  2rem;
+    
 
 }
 .tipos .row .sabores h3{
@@ -178,7 +184,10 @@ section {
     padding: 2rem;
     text-align: center;
     overflow: hidden;
+    cursor: pointer;
 }
+
+
 .menu .box-container .box .img{
     height: 20rem;
     width: 20rem;
@@ -186,9 +195,28 @@ section {
     border-radius: 50%;
     margin: 1rem 0;
 }
-.menu .box-container.box .img h3{
+.menu .box-container.box h3{
     font-size: 2rem;
     color:var(--black);
     text-align:center;
     padding: 1rem;
+
+}
+.menu .box-container .box .price{   
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 0.5 0;
+    
+}
+.menu .box-container .box .price span{
+    font-size: 1rem;
+    text-decoration: line-through;
+    font-weight: 100;
+
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
