@@ -26,20 +26,19 @@ body {
 }
 
 section {
-    padding: 6rem 6rem;
+    padding: 3rem 2rem;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1200px;
 
 }
 
 .header {
-    position:fixed;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 90;
+    z-index: 99;
     border-bottom: var(--border);
-    background-color: #A95E13;
     
 }
 
@@ -47,9 +46,9 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:  1rem ;
+    padding:  1rem 5%;
     padding: 1rem 5% ;
-    color: #A95E13;
+    
 }
 
 .navbar a {
@@ -118,22 +117,22 @@ section {
     
 }
 .title {
-    font-size:2rem;
-    text-align: center;
+    font-size: 2rem;
+    text-align: left;
     letter-spacing: 0.1rem;
-    
-   
+
+
 }
-.title span {
+.title span{
     color:var(--black);
-    bottom: center;
-    text-align: center;
-
-    
+    text-align:center;
 
 }
+
 .tipos .row{
-    
-    justify-content: space-around;
-   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
 }
