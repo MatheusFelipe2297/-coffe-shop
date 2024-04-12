@@ -203,16 +203,20 @@ section {
 
 }
 .menu .box-container .box .price{   
-    color: #ffffff;
-    font-size: 1.5rem;
-    padding: 0.5 0;
+    color: var(--black);
+    font-size: 1.7rem;
+    padding: 0.5 0rem ;
+    position: relative;
+    
     
 }
-.menu .box-container .box .price span{
-    font-size: 1rem;
+.menu .box-container .box .desconto{
+    font-size: 1.3rem;
+    padding: 0.5 0rem ;
     text-decoration: line-through;
-    font-weight: 100;,
-    pading:0 2rem;
+    color:#ff6347 ;
+
+  
 
 }
 
@@ -220,4 +224,8 @@ section {
     display: flex;
     align-items: center;
     flex-direction: column;
+
+}
+.address p{
+    font-size: 1.2rem;
 }
